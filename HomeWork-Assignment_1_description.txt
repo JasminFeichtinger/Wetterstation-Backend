@@ -1,0 +1,60 @@
+Purpose of the activity
+
+Implementation of a RESTful web service using the microservice architecture
+What is to be done?
+
+This assignment is part of a bigger project and provides these features to the other parts as a service:
+
+    Persistent storage of sensor data
+    RESTful web service to store and access the data
+
+The service is to be implemented using a microservice architecture consisting of at least these building blocks:
+
+    API Gateway
+    Load Balancer
+    Service Registry
+    Config Server
+    At least two instances of the web service
+
+The application persists two types of records:
+
+    A sensor is a single device to measure temperature and humidity. It is characterized by the fields:
+        Name
+        Location
+        Active (Is the sensor already activated and provides data?)
+        Type of Sensor (outdoor, indoor, water)
+    A measurement is a value pair obtained by the sensor.
+        Sensor (Which sensor provided the measurement?)
+        Timestamp (When was the measurement done?)
+        Temperature
+        Humidity
+
+The database used can be chosen by the students themselves. A proper database schema must be set up.
+
+The project is to be implemented by teams of two students.
+
+A GitHub classroom repository acts as code repository. Join the assignment at https://classroom.github.com/a/m0msVhsP and form the groups.
+
+The online submission must consist of the following parts :
+
+    File submission:
+        PDF file containing
+            Entity-relationship diagram of the database
+            Architecture diagram of the setup with labels for the components, IP addresses and ports
+            Short technical description, architecture and design decisions made by the group, pitfalls and surprises, used resources (articles, books, tutorials)
+            At least one test call per operation, e. g. as curl command lines.
+            Screenshots demonstrating the working setup
+        Source code as ZIP file
+
+The grades are assigned at a joint review by the group and the teacher after submission. The work is to be demonstrated during the review.
+
+The grading is composed from the following parts:
+
+    Completeness (100%): All parts are implemented. The grading is scaled accordingly if only parts are implemented.
+    Proper function (50%): The programs can be compiled and run properly. The REST interface can be reached via HTTP and performs the CRUD operations.
+    Quality of source code (25%): The source code is clean. The variable and method names are properly chosen.
+    Quality of the submission (25%): The submitted PDF file is checked for completeness and quality.
+
+Activity completion
+
+The activity is completed by submitting the documentation.
