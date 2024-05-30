@@ -1,4 +1,4 @@
-<h1>Dokumentation</h1>
+<h1>Wetterstation Backend</h1>
 Andreas Dötzl und  Jasmin Feichtinger
 
 <h2> Technische Beschreibung </h2>
