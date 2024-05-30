@@ -61,9 +61,6 @@ Die Daten gehören dann im GitHub Repository "ha-microservice-architecture-confi
 <h2> Durchführung Beispiele </h2>
 Unter "BeispielFuerDieDurchfuehrung.pdf" haben wir die CRUD funktionen durchführt und mit Screenshots dokumentiert.
 Wir haben unsere Abrufe mit Postman durchgeführt.
-Folgend finden Sie den Link mit dem Sie auf unsere Abrufe zugreifen können.
-
-https://www.getpostman.com/collections/b6d2e73dd7bc6d54f141
 
 <h2> Quellenverzeichnis: </h2>
 
